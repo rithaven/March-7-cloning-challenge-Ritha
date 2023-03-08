@@ -23,12 +23,13 @@ const Footer = () => {
       <p>Privacy </p>
       <p>Cookie settings</p>
      </div>
-     <div className="flex gap-2 ">
+     <div className="flex gap-1 items-center ">
        <p>Follow UvA on social media</p>
        <img className="h-6" src="/facebook.svg" alt="" />
        <img className="h-6" src="/twitter.svg" alt="" />
        <img className="h-6" src="/linkedin.svg" alt="" />
        <img className="h-6" src="/instagram.svg" alt="" />
+       <img className="h-6" src="/whatsapp.svg" alt="" />
        <img className="h-6" src="/play.svg" alt="" />
      </div>
     </div>

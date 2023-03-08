@@ -23,7 +23,8 @@ const Navbar = () => {
             animateHeader && "py-3"
           }  items-center   ease-in-out duration-500`}>
         <div>
-          <img className="h-16" src="/logo.png" alt="" />
+          <img className={`h-10 ${animateHeader && "h-6"}`} src="/logo.svg" alt="" />
+         
         </div>
         <div className="flex gap-6">
           <div className=" flex border border-gray-300 p-2 gap-28 rounded-md ">
