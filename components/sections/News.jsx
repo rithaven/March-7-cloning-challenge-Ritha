@@ -11,26 +11,24 @@ export const News = () => {
           <Card
             image="https://www.uva.nl/binaries/_ht_1677583600827/cardsmall/content/gallery/faculteiten-en-diensten/uva-bureau-communicatie/persvoorlichting/2023/pexels-lisa-fotios-1346155.jpg"
             title="Study in Amsterdam Week 20 - 24 February"
-            description="
-        Discover everything an international student needs to know about studying at the UvA."
+            description="There’s PFAS coming out of our taps. New research by Mohammad Sadia, PhD candidate at the Institute for Biodiversity and Ecosystem Dynamics (IBED) – University of Amsterdam (UvA) shows that drinking water produced ... "
           />
           <Card
             image="https://www.uva.nl/binaries/_ht_1677194284781/cardsmall/content/gallery/onderzoek/iop/nieuws/2023/20230219_teflon-wrijving_imgeng.png"
             title="Study in Amsterdam Week 20 - 24 February"
-            description="
-        Discover everything an international student needs to know about studying at the UvA."
+            description="There’s PFAS coming out of our taps. New research by Mohammad Sadia, PhD candidate at the Institute for Biodiversity and Ecosystem Dynamics (IBED) – University of Amsterdam (UvA) shows that drinking water produced ..."
           />
           <Card
             image="/masters.png"
             title="The UvA and the smart city"
             description="
-        Discover everything an international student needs to know about studying at the UvA."
+            There’s PFAS coming out of our taps. New research by Mohammad Sadia, PhD candidate at the Institute for Biodiversity and Ecosystem Dynamics (IBED) – University of Amsterdam (UvA) shows that drinking water produced ..."
           />
           <Card
             image="https://www.uva.nl/binaries/_ht_1676632421291/680x190-webp/content/gallery/faculteiten-en-diensten/fmg/fmg-corporate-met-restricties/nieuws/rich-man.jpg"
             title="Bachelor's Week 17 - 25 March"
             description="
-          Discover your Bachelor's at the UvA."
+            There’s PFAS coming out of our taps. New research by Mohammad Sadia, PhD candidate at the Institute for Biodiversity and Ecosystem Dynamics (IBED) – University of Amsterdam (UvA) shows that drinking water produced ..."
           />
         </div>
 
