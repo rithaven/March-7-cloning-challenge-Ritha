@@ -75,7 +75,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className=" flex gap-4">
-              <h2 className="font-bold hover:underline hidden md:block">
+              <h2 className="font-bold md:text-2xl hover:underline hidden md:block">
                 Compare programmess
               </h2>
               <img className="h-8" src="/heart.svg" alt="" />
