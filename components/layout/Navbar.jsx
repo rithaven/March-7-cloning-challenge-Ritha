@@ -1,7 +1,9 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import ToggleMenu from "../sections/ToggleMenu";
 
 const Navbar = () => {
+  const[showmenu,setShowmenu] = useState(false);
   const [animateHeader, setAnimateHeader] = useState(false);
   useEffect(() => {
     const listener = () => {
@@ -16,6 +18,7 @@ const Navbar = () => {
   }, []);
 
   return (
+    <>
     <header className={`z-10 md:px-32 px-10 ease-in-out duration-500 sticky top-0 shadow-xl bg-white ${
         animateHeader && "shadow-xl"
       }`}>
@@ -82,11 +85,24 @@ const Navbar = () => {
             <div className="border border-gray-500 p-2">
               <h3 className="font-bold ">NL</h3>
             </div>
-            <img className=" h-10 sm:hidden" src="/menu.svg" alt="" />
+           <div className="" onClick={()=>setShowmenu(!showmenu)}>
+          {showmenu?
+                  <img className=" h-10 md:hidden" src="/close.svg" alt="" /> : <img className=" h-10 md:hidden" src="/menu.svg" alt="" />
+
+            }
+            
+           
+           </div>
           </div>
         </div>
       </div>
+     
     </header>
+    {
+        showmenu &&
+        <ToggleMenu />
+      }
+    </>
   );
 };
 

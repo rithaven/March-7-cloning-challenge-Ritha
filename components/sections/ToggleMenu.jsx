@@ -1,0 +1,63 @@
+import Link from "next/link";
+import React from "react";
+
+const ToggleMenu = () => {
+  return (
+    <div className="bg-gray-300">
+      <div className="p-10">
+        <div className="flex">
+        <Link className="text-red-500" href="/">
+            Home
+          </Link>
+          <img className="h-6" src="/arrow-right.svg" alt="" />
+
+         
+        </div>
+      </div>
+      <div className="grid">
+        <div className="flex gap-4 border border-white">
+          <div className="bg-white p-2">
+            <img className="h-4" src="chevron.svg" alt="" />
+          </div>
+          <div className="p-2">
+            <Link href="/">Education</Link>
+          </div>
+        </div>
+        <div className="flex gap-4 border border-white">
+          <div className="bg-white p-2">
+          <img className="h-4" src="chevron.svg" alt="" />
+          </div>
+          <div className="p-2">
+            <Link href="/">Education</Link>
+          </div>
+        </div>
+        <div className="flex gap-4 border border-white">
+          <div className="bg-white p-2">
+          <img className="h-4" src="chevron.svg" alt="" />
+          </div>
+          <div className="p-2">
+            <Link href="/">Education</Link>
+          </div>
+        </div>
+        <div className="flex gap-4 border border-white">
+          <div className="bg-white p-2">
+          <img className="h-4" src="chevron.svg" alt="" />
+          </div>
+          <div className="p-2">
+            <Link href="/">Education</Link>
+          </div>
+        </div>
+        <div className="flex gap-4 border border-white">
+          <div className="boder border-white px-4">
+          <img className="h-4" src="" alt="" />
+          </div>
+          <div className="p-2">
+            <Link href="/">Education</Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ToggleMenu;
