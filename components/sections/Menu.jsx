@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { useState, useEffect } from "react";
 
@@ -7,9 +8,9 @@ const Menu = () => {
     <div className="bg-gray-100 px-40 md:block hidden ">
       <div className="gap-4 py-6 flex">
         <div>
-          <button class="peer px-5 py-2 text-2xl hover:text-red-500 ">
+          <Link href='Edication' class="peer px-5 py-2 text-2xl hover:text-red-500 ">
             Edication
-          </button>
+          </Link>
 
           <div
             class="hidden peer-hover:flex hover:flex
@@ -28,9 +29,9 @@ const Menu = () => {
           </div>
         </div>
         <div>
-          <button class="peer px-5 py-2 text-2xl hover:text-red-500 ">
+          <Link href='Research' class="peer px-5 py-2 text-2xl hover:text-red-500 ">
            Research
-          </button>
+          </Link>
 
           <div
             class="hidden peer-hover:flex hover:flex
@@ -49,9 +50,9 @@ const Menu = () => {
           </div>
         </div>
         <div>
-          <button class="peer px-5 py-2 text-2xl hover:text-red-500">
+          <Link href='NewsEvents' class="peer px-5 py-2 text-2xl hover:text-red-500">
             News&Events
-          </button>
+          </Link>
 
           <div
             class="hidden peer-hover:flex hover:flex
@@ -70,9 +71,9 @@ const Menu = () => {
           </div>
         </div>
         <div>
-          <button class="peer px-5 py-2 text-2xl hover:text-red-500 ">
+          <Link href='About' class="peer px-5 py-2 text-2xl hover:text-red-500 ">
             About the UvA
-          </button>
+          </Link>
 
           <div
             class="hidden peer-hover:flex hover:flex
@@ -91,9 +92,9 @@ const Menu = () => {
           </div>
         </div>
         <div>
-          <button class="peer px-5 py-2 text-2xl hover:text-red-500 ">
+          <Link href='Library' class="peer px-5 py-2 text-2xl hover:text-red-500 ">
             Library
-          </button>
+          </Link>
 
           <div
             class="hidden peer-hover:flex hover:flex
