@@ -1,5 +1,12 @@
+import Navbar from '@/components/layout/Navbar'
+import Hero from '@/components/sections/Hero'
+import Menu from '@/components/sections/Menu'
+import Current from '@/components/sections/Current'
 import Head from 'next/head'
 import Image from 'next/image'
+import { News } from '@/components/sections/News'
+import Goto from '@/components/sections/Goto'
+import Footer from '@/components/layout/Footer'
 
 export default function Home() {
   return (
@@ -10,7 +17,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>Hello</div>
+       <Navbar />
+       <Menu />
+       <Hero />
+       <Current />
+       <News />
+       <Goto />
+       <Footer />
     </>
   )
 }
