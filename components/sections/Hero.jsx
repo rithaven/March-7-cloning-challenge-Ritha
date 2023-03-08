@@ -18,7 +18,7 @@ const Hero = () => {
                 </div>
 
             </div>
-            <div className=' flex-col-1 gap-6 md:flex md:gap-4  md:max-w-6xl m-auto md:-mt-36 '>
+            <div className=' flex-col-1 md:space-y-0 space-y-4 md:flex md:gap-4  md:max-w-6xl m-auto md:-mt-36 '>
               <div>
               <DegreeCard title="Bachelor's" image="/arrow-right.svg" link="20+ English-taught Bachelor's programmes" />
               </div>

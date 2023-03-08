@@ -46,8 +46,9 @@ const Navbar = () => {
               />
             </Link>
           </div>
-          <div className="flex gap-6">
-            <div className="hidden  md:flex border border-gray-300 p-2 gap-28 rounded-md ">
+          <div className="flex gap-6 items-center">
+            <div className="hidden active:border active:border-black  md:flex border border-gray-300 p-2 gap-28 rounded-md ">
+             
               <input type="text" placeholder="Search..." />
               <div className="flex">
                 <img className="h-8" src="/divider.svg" alt="" />
@@ -100,7 +101,7 @@ const Navbar = () => {
                   />
                 </svg>{" "}
               </div>
-              <div className="border border-gray-500 p-2">
+              <div className="border border-gray-500 py-2 px-4">
                 <h3 className="font-bold ">NL</h3>
               </div>
               <div className="" onClick={() => setShowmenu(!showmenu)}>
