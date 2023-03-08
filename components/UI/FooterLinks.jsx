@@ -4,9 +4,9 @@ import { icons } from 'react-icons'
 
 const FooterLinks = (props) => {
   return (
-    <div className='p-4'>
+    <div className='p-6'>
         <h3 className='mb-4'>{props.title}</h3>
-        <div className='grid'>
+        <div className='grid pb-8 '>
           {
             [
             {
@@ -15,36 +15,33 @@ const FooterLinks = (props) => {
             },
             {
                 icons:"/chevron-right.svg",
-                link:"one"
+                link:"Minors"
              },
              {
                 icons:"/chevron-right.svg",
-                link:"two"
+                link:"Master's programmes"
              },
              {
                 icons:"/chevron-right.svg",
-                link:"Bachelor's programmes"
+                link:"Professional development"
              },
              {
                 icons:"/chevron-right.svg",
-                link:"Bachelor's programmes"
+                link:"Exchange"
              },
              {
                 icons:"/chevron-right.svg",
-                link:"Bachelor's programmes"
+                link:"Summer School"
              },
              {
                 icons:"/chevron-right.svg",
-                link:"Bachelor's programmes"
+                link:"PhD at UvA"
              },
              {
                 icons:"/chevron-right.svg",
-                link:"Bachelor's programmes"
+                link:"Research at UvA"
              },
-             {
-                icons:"/chevron-right.svg",
-                link:"Bachelor's programmes"
-             },
+         
                 
             ].map((props,key)=>{
                 return(

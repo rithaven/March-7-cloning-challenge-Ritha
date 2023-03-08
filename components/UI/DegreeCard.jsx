@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const DegreeCard = (props) => {
   return (
-    <div className='border border-red-400 p-4 w-80 bg-white'>
+    <div className='border border-red-400 p-4 md:w-80 w-60 bg-white'>
         <h3 className='text-red-500'>{props.title}</h3>
         <div className='flex  justify-between'>
             <h3>

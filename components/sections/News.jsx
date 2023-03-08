@@ -4,10 +4,10 @@ import Link from "next/link";
 
 export const News = () => {
   return (
-    <div className=" bg-[#e6e6e6] p-32">
+    <div className=" bg-[#e6e6e6] md:p-32 p-10">
       <div className=" ">
         <h3 className="text-4xl font-bold mb-10">News</h3>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid md:grid-cols-4 grid-cols-1 gap-4">
           <Card
             image="https://www.uva.nl/binaries/_ht_1677583600827/cardsmall/content/gallery/faculteiten-en-diensten/uva-bureau-communicatie/persvoorlichting/2023/pexels-lisa-fotios-1346155.jpg"
             title="Study in Amsterdam Week 20 - 24 February"

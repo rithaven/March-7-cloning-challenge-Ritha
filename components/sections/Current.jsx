@@ -3,10 +3,10 @@ import Card from "../UI/Card";
 
 const Current = () => {
   return (
-    <div className=" p-32">
+    <div className=" md:p-32 p-10">
       <div className="">
         <h3 className="text-4xl font-bold mb-10">Current</h3>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid md:grid-cols-3 gap-4 grid-cols-1">
           <Card
             image="https://www.uva.nl/binaries/_ht_1621425617139/cardsmall/content/gallery/faculteiten-en-diensten/restyling18-generiek-beeld/trap-stairs-roeterseiland.jpg"
             title="Study in Amsterdam Week 20 - 24 February"

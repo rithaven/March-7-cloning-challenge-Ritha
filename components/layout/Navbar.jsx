@@ -16,18 +16,18 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className={`z-10 px-32  ease-in-out duration-500 sticky top-0 shadow-xl bg-white ${
+    <header className={`z-10 md:px-32 px-10 ease-in-out duration-500 sticky top-0 shadow-xl bg-white ${
         animateHeader && "shadow-xl"
       }`}>
-      <div className={`  flex justify-between py-10 ${
+      <div className={`  flex justify-between items-center  py-10 ${
             animateHeader && "py-3"
-          }  items-center   ease-in-out duration-500`}>
+          }    ease-in-out duration-500`}>
         <div>
-          <img className={`h-10 ${animateHeader && "h-6"}`} src="/logo.svg" alt="" />
+          <img className={` h-4 md:h-10 ${animateHeader && "h-6"}`} src="/logo.svg" alt="" />
          
         </div>
         <div className="flex gap-6">
-          <div className=" flex border border-gray-300 p-2 gap-28 rounded-md ">
+          <div className="hidden  md:flex border border-gray-300 p-2 gap-28 rounded-md ">
             <input type="text" placeholder="Search..." />
             <div className="flex">
               <img className="h-8" src="/divider.svg" alt="" />
@@ -54,11 +54,33 @@ const Navbar = () => {
             </div>
           </div>
           <div className=" flex gap-4">
-            <h2 className="font-bold hover:underline ">Compare programmess</h2>
+            <h2 className="font-bold hover:underline hidden md:block">Compare programmess</h2>
             <img className="h-8" src="/heart.svg" alt="" />
-            <div className="border border-black p-2">
+            <div className="border border-gray-500   md:hidden block">
+            <svg
+                width="30px"
+                height="30px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17 17L21 21"
+                  stroke="#323232"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z"
+                  stroke="#323232"
+                  stroke-width="2"
+                />
+              </svg>            </div>
+            <div className="border border-gray-500 p-2">
               <h3 className="font-bold ">NL</h3>
             </div>
+            <img className=" h-10 sm:hidden" src="/menu.svg" alt="" />
           </div>
         </div>
       </div>
