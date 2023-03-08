@@ -23,7 +23,9 @@ const Navbar = () => {
             animateHeader && "py-3"
           }    ease-in-out duration-500`}>
         <div>
-          <img className={` h-4 md:h-10 ${animateHeader && "h-6"}`} src="/logo.svg" alt="" />
+          <img className={`  ${animateHeader && "h-4"} ease-in-out duration-500 h-10 md:block hidden `} src="/logo.svg" alt="" />
+          <img className={` ease-in-out duration-500 h-10 md:hidden `} src="https://www.pngfind.com/pngs/m/350-3504187_uva-gross-university-of-amsterdam-logo-hd-png.png" alt="" />
+
          
         </div>
         <div className="flex gap-6">
